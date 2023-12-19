@@ -86,10 +86,6 @@ galleryContainer.innerHTML = images.reduce((html, images) => html + `
 
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt', // Use the alt attribute for captions
-  captionDelay: 250,    // Delay for displaying captions (in milliseconds)
-  captionPosition: 'bottom',
-  disableRightClick: false,
-  close: true,
-  loop: true
+  captionsData: 'alt',
+  captionDelay: 250
 });
