@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["export const feedbackFormEl = document.querySelector(\".feedback-form\");\n\n "],"names":[],"mappings":"ssBAA8B,SAAS,cAAc,gBAAgB"}
+{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
