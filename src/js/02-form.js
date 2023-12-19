@@ -29,6 +29,8 @@ feedbackFormEl.addEventListener("submit", onSubmitForm);
 
 function onSubmitForm(event) {
   event.preventDefault();
-  localStorage.removeItem(localStorageKey);
-  feedbackFormEl.reset();
+  if (feedbackFormEl.elements.email.value && feedbackFormEl.elements.message.value) {
+    localStorage.removeItem(localStorageKey);
+    feedbackFormEl.reset();
+  } else return alert ("Input correct information")
 };
