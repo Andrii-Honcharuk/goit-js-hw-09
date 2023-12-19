@@ -29,3 +29,17 @@
 .sl-wrapper {
 background-color: rgba(46, 47, 66, 0.80);
 }
+
+.sl-wrapper .sl-navigation button.sl-next,
+.sl-wrapper .sl-navigation button.sl-prev
+{
+  color: #fff;
+}
+
+.sl-wrapper > .sl-close {
+  color: #fff;
+}
+.sl-navigation-color{
+ color: #fff;
+}
+  

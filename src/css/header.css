@@ -19,3 +19,25 @@
 .nav-link:focus {
   color: #747bff;
 }
+
+
+
+
+.link-to-home {
+  width: 150px;
+  display: flex;
+  background-color: rgb(170, 170, 170);
+  /* padding: 15px; */
+  /* border: 1px, solid, rgb(170, 170, 170); */
+  border-radius: 10%;
+}
+.link-to-home:hover {
+  cursor: pointer;
+  background-color: rgb(146, 146, 146);
+}
+.link-to-home > a {
+  padding: 15px;
+}
+.left-stright:after {
+  content: "\21D0";
+}

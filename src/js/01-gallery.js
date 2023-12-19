@@ -90,6 +90,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,    // Delay for displaying captions (in milliseconds)
   captionPosition: 'bottom',
   disableRightClick: false,
-  close: false,
+  close: true,
   loop: true
 });
