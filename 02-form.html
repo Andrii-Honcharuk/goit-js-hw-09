@@ -4,23 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <title>Page 3</title>
+    <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body>
     <section>
-      <a href="../index.html">Go to home</a>
-      <h1>Welcome to page 3</h1>
-      <form class="feedback-form" autocomplete="off">
-        <label>
-          Email
-          <input type="email" name="email" autofocus />
-        </label>
-        <label>
-          Message
-          <textarea name="message" rows="8"></textarea>
-        </label>
-        <button type="submit">Submit</button>
-      </form>
+      <div class="link-to-home">
+        <a href="../index.html">Go to home</a>
+      </div>
+      <h1 class="title-feedback">Welcome to feedback form</h1>
+      <div class="forma-container">
+        <form class="feedback-form" autocomplete="off">
+          <label class="form-label">
+            Email
+            <input class="form-input" type="email" name="email" autofocus />
+          </label>
+          <label class="form-label">
+            Message
+            <textarea class="form-message" name="message" rows="8"></textarea>
+          </label>
+          <button class="form-button" type="submit">Submit</button>
+        </form>
+      </div>
     </section>
+    <script type="module" src="../js/02-form.js"></script>
   </body>
 </html>
